@@ -11,6 +11,15 @@ out of Neovim, switch to another split, or when you enter insert mode.
 
 ## Installation
 
+Packer:
+```
+  use({
+    "hermitmaster/nvim-numbertoggle",
+    config = function()
+      require("nvim-numbertoggle").setup()
+    end,
+  })
+```
 
 Once help tags are generated, you can view the manual with `:help numbertoggle`.
 
